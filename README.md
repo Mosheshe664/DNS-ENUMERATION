@@ -45,12 +45,6 @@ After execution, open open_ports_report.txt to see the structured list of live s
 
 The output will look something like this
 # Open Port Report for example.com
-
-## sub1.example.com
-PORT     STATE SERVICE
-80/tcp   open  http
-443/tcp  open  https
-
-## sub2.example.com
-PORT     STATE SERVICE
-22/tcp   open  ssh
+* 80/tcp   open  http
+* 443/tcp  open  https
+* 22/tcp   open  ssh
